@@ -25,7 +25,8 @@ development.local
 ```
 -->  
 ## Run the scrapper
-To run the app::
+
+* To run the app:
 
 ```
 vagrant ssh
@@ -36,7 +37,7 @@ python3 main.py
 
 ```
 
-- Output of app ::
+*  Output of app :
 
  ```
  /home/vagrant/Downloads
