@@ -14,6 +14,7 @@ Vagrant.configure("2") do |config|
   chef.arguments = "--chef-license accept"
   end
 <<<<<<< HEAD
+<<<<<<< HEAD
 end
 # Vagrant.configure("2") do |config|
 #   config.vm.box = "ubuntu/bionic64"
@@ -25,6 +26,8 @@ end
 #   end
 # end
 =======
+=======
+>>>>>>> 46d1f6cd5845c779d9082236ebb23cce1e163bc9
 
   Vagrant.configure("2") do |config|
     config.vm.box = "ubuntu/bionic64"
@@ -34,4 +37,7 @@ end
     chef.add_recipe "python_second_It_Jobs_cookbook"
     chef.arguments = "--chef-license accept"
     end
+<<<<<<< HEAD
 >>>>>>> d4265fb5baa7542d4fbe9c0e1ff525d264796d04
+=======
+>>>>>>> 46d1f6cd5845c779d9082236ebb23cce1e163bc9
