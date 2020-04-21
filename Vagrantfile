@@ -14,12 +14,12 @@ Vagrant.configure("2") do |config|
   chef.arguments = "--chef-license accept"
   end
 end
-Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/bionic64"
-  config.vm.provision "shell", path: "./provisions.sh"
-  config.vm.synced_folder './it-job-watch-code', "/home/ubuntu/app"
-  config.vm.provision "chef_solo" do |chef|
-  chef.add_recipe "python_second_It_Jobs_cookbook"
-  chef.arguments = "--chef-license accept"
-  end
-end
+# Vagrant.configure("2") do |config|
+#   config.vm.box = "ubuntu/bionic64"
+#   config.vm.provision "shell", path: "./provisions.sh"
+#   config.vm.synced_folder './it-job-watch-code', "/home/ubuntu/app"
+#   config.vm.provision "chef_solo" do |chef|
+#   chef.add_recipe "python_second_It_Jobs_cookbook"
+#   chef.arguments = "--chef-license accept"
+#   end
+# end
