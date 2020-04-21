@@ -1,8 +1,9 @@
 # IT Job Watch Repo and Code 👩🏻‍💻
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
 ## Setting up
+
 - Describe how to setup local environment
 
 ### Getting the code
@@ -10,10 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ```
 git clone <repo ssh or https>
 ```
-
-
 ### Creating a Development Environment
-
 
 - To create your local environment please
 
@@ -27,19 +25,29 @@ development.local
 ```
 -->  
 ## Run the scrapper
-To run the app::
+
+* To run the app:
 
 ```
 vagrant ssh
 cd /home/ubuntu/app
 
+
 python3 main.py
 
 ```
 
-Output of app ::
+*  Output of app:
 
  ```
  /home/vagrant/Downloads
  ```
+<<<<<<< HEAD
+<<<<<<< HEAD
+ ********
+=======
 Test
+>>>>>>> d4265fb5baa7542d4fbe9c0e1ff525d264796d04
+=======
+Test
+>>>>>>> 46d1f6cd5845c779d9082236ebb23cce1e163bc9
