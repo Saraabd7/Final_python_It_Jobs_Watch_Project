@@ -42,4 +42,8 @@ python3 main.py
  ```
  /home/vagrant/Downloads
  ```
+<<<<<<< HEAD
  ********
+=======
+Test
+>>>>>>> d4265fb5baa7542d4fbe9c0e1ff525d264796d04
