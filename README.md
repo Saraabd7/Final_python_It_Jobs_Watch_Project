@@ -37,8 +37,9 @@ python3 main.py
 
 ```
 
-*  Output of app :
+*  Output of app:
 
  ```
  /home/vagrant/Downloads
  ```
+ ********
